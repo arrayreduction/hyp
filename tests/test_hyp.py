@@ -1,4 +1,3 @@
-import pytest
 import hyp.hyp as hyp
 import numpy as np
 
@@ -15,6 +14,7 @@ def test_sqrt():
     t_2 = np.zeros_like(t, dtype=float)
     t_2[0] = 3
     np.testing.assert_array_almost_equal(t,t_2 )
+
 def test_integration():
     a = np.zeros(1)
     b = np.zeros(1)

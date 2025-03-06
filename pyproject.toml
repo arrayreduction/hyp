@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyp"
+description = "A simple Python project"
+version = "0.1.0"
+readme = "README.md"
+authors = [
+{ name="B", email="authors_email@goes_here.ie" },
+]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=2.0.0",
+]
