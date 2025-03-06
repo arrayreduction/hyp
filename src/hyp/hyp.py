@@ -13,6 +13,6 @@ def sqrt_c(c2 : np.ndarray) -> np.ndarray:
 
 def find_c(a: np.ndarray, b: np.ndarray) -> np.ndarray:
     c = sq_oh(a,b)
-    c = sqrt_c(c)
+    c = sqrt_c(c)   # noqa
     
     return c
